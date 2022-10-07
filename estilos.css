@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    color: BLACK;
+}
+
+ul ol{
+    list-style-type: none;
+}
+a {
+
+}
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #707070;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+
+.wrapper{
+    display:grid;
+    width: 100%;
+    grid-template-rows: 83px auto 800px 560px;
+}
+
+
+.elnav{
+    background-color: blueviolet;
+  
+}
+
+.BsAs{
+    background-image: url(./imagenes/imagenes\ tp\ codo\ a\ codo/.BsAs);
+    background-size:cover;
+    text-align: center;
+    background-color: black;
+ 
+}
+.oradores{
+    display:grid;
+    background-color: white;
+    width:100%;
+align-items: center;
+  
+}
+.titulos{
+    justify-items: center;
+}
+
+.DOS{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.playa{
+    background-color: brown;
+
+    
+}
+
+.formulario{
+    background-color:white;
+    height: 500px;
+}
+.pie{
+    background-color: darkkhaki;
+}
+.col-6{
+   height: 500px;
+   background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.letra{
+    text-align: center;
+    font-size: 20px;
+}
+.elnav{
+    text-decoration-color: beige;
+}
+
+
+footer{
+    height: 150px;
+    background-color: #204060;
+    outline: 1px solid #204060;
+}
